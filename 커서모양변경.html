@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style type="text/css">
+        a{text-decoration: none; color: inherit;}
+
+        .pointer{cursor: progress;}
+
+        .wait a{cursor: wait;}
+
+        .zoom a{cursor: zoom-in;}
+        .link{width: 200px; height: 200px; border: 1px solid black;}
+
+        .link:hover{cursor: url('./images/gnb2_maga2.png') 20 30 , url('./images/ico_num05.png' )20 30 , auto;}
+
+        .link:active{cursor:  url('./images/normal_14.png') 20 30,auto;}
+    </style>
+</head>
+<body>
+    <p class="pointer"><a href="#">손모양</a></p>
+    <p class="wait"><a href="#">로딩중</a></p>
+    <p class="zoom"><a href="#">돋보기</a></p>
+    <p class="pointer">아무거나</p>
+
+    <div class="link">이미지 커서</div>
+</body>
+</html>
